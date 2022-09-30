@@ -12,9 +12,11 @@ public class Main {
         long max = service.maxSales(sales);
         long below = service.salesBelowAverage(sales);
         long above = service.salesAboveAverage(sales);
-
-
-
-
-   }
+        System.out.println("Сумма продаж за все мясяц " + arr);
+        System.out.println("Средний объём продаж в месяц " +  average);
+        System.out.println("Минимальный объём продаж " + min);
+        System.out.println("Максимальный объём продаж " + max);
+        System.out.println("Ниже среднего " + below);
+        System.out.println("Выше среднего " + above);
+    }
 }
